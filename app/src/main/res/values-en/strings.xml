@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Turn down for Watt</string>
+
+
+
+    <!---Tab Names-->
+    <string name="Overview">Overview</string>
+    <string name="Meter">Meters</string>
+    <string name="Meter_add">Add Meters</string>
+    <string name="Readings">Readings</string>
+    <string name="Readings_add">Add Readings</string>
+    <string name="Statistics">References</string>
+
+    <!--Strings for Texts and Buttons-->
+    <string name="Meter_Name">Meter Name</string>
+    <string name="Costs_per_kWh">Contract Costs in € / kWh</string>
+    <string name="Meter_Reading">Meter Reading in kWh</string>
+    <string name="Date">Datum</string>
+    <string name="Add_Meter_Button">Add Meter</string>
+    <string name="Add_Reading_Button">Add Reading</string>
+
+
+
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+
+    <string name="kWh_Month">KWh/Month</string>
+
+
+    <!--Overview / Main Activity-->
+    <string name="Empty">Empty</string>
+    <string name="few_data">Too few Data</string>
+    <string name="few_data_a">Too few Data...</string>
+    <string name="Consumption_per_day_few_data_a">Consumption per Day:</string>
+    <string name="Consumption_per_month_few_data_a">Consumption per Month:</string>
+    <string name="CO2_few_data_a">CO2 Emissions:</string>
+    <string name="Error_loading_max_cons">Error while loading the maximum Consumption</string>
+    <string name="Last_Input_before">Last Entry </string>
+    <string name="Last_Input_days"> Days ago.</string>
+    <string name="Max_cons_Abb">Max. Consumption: </string>
+    <string name="Total_Cons_a">Total Consumption:</string>
+    <string name="Total_Costs_a">Total Costs:</string>
+    <string name="Cons_per_month_a">Consumption kWh/Month:</string>
+    <string name="Cons_per_day_a">Consumption kWh/Day:</string>
+    <string name="CO2_a">CO2 Emissions: </string>
+
+
+    <!--Meters-->
+    <string name="Meter_Name_b">Meters:</string>
+    <string name="Contract_Costs_b">Contract Costs:</string>
+    <string name="No_Meters_yet">No Meters yet!</string>
+    <string name="Starting_Reading_Values">Starting Values</string>
+    <string name="No_Starting_Reading_Values">No Starting Values</string>
+    <string name="Delete_all_Data_Btn">Delete all Data</string>
+
+
+    <!--Add Meters-->
+    <string name="Error_Name">Please enter a Name</string>
+    <string name="Error_Number">Please enter a Number</string>
+    <string name="Error_Starting_Value">Please enter a starting Value</string>
+    <string name="Error_Maximum_Consumption">Please enter a maximum Consumption</string>
+    <string name="Error_Input">Invalid Input</string>
+    <string name="Meter_Name_Txt">Meter Name</string>
+    <string name="Starting_Value_Txt">Current Meter Reading</string>
+    <string name="Contract_Costs_Txt">Contract Costs in € / kWh</string>
+    <string name="Max_Cons_Txt">Targeted maximum monthly Consumption</string>
+    <string name="Add_Meter_Txt">Add this Meter</string>
+
+
+    <!--Readings-->
+    <string name="Active_Meter_a">Active Meter</string>
+    <string name="Active_Meter_changed">Active Meter changed</string>
+    <string name="No_active_meter">No active Meter</string>
+    <string name="Empty_Readings_in">Readings are empty in:</string>
+    <string name="Readings_c">Meter Reading:</string>
+    <string name="Readings_d">Meter Reading</string>
+    <string name="Readings_please_add">Please add a Meter Reading</string>
+    <string name="No_Readings_yet_c">No Meter Readings yet...</string>
+    <string name="Change_active_Meter">Change the active Meter</string>
+
+
+    <!--Add Readings-->
+    <string name="No_Meter_found_c">No Meter found</string>
+    <string name="Date_Error">Date Error</string>
+    <string name="Error_in_Meter">Error in Meter:</string>
+    <string name="No_Starting_Value_b">No Starting Value:</string>
+    <string name="Add_this_Reading">Add this Meter Reading</string>
+
+    <!-- Statistics / Reference-->
+    <string name="Person_Household">Persons in Household</string>
+    <string name="Ref_Monthly_Cons">Monthly Consumption</string>
+    <string name="Ref_Elec">Electricity</string>
+    <string name="Ref_Gas">Gas</string>
+    <string name="Ref_Apt_Size">Apartment Size</string>
+
+</resources>

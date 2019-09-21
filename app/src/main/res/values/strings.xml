@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Turn down for Watt</string>
+
+
+
+    <!---Tab Names-->
+    <string name="Overview">Übersicht</string>
+    <string name="Meter">Zähler</string>
+    <string name="Meter_add">Zähler hinzufügen</string>
+    <string name="Readings">Zählerstände</string>
+    <string name="Readings_add">Zählerstände hinzufügen</string>
+    <string name="Statistics">Referenzen</string>
+
+    <!--Strings for Texts and Buttons-->
+    <string name="Meter_Name">Zähler-Name</string>
+    <string name="Costs_per_kWh">Vertragskosten in € / kWh</string>
+    <string name="Meter_Reading">Zählerstand in kWh</string>
+    <string name="Date">Datum</string>
+    <string name="Add_Meter_Button">Zähler hinzufügen</string>
+    <string name="Add_Reading_Button">Zählerstand hinzufügen</string>
+
+
+
+    <string name="Delete">Löschen</string>
+    <string name="Update">Aktualisieren</string>
+
+    <string name="kWh_Month">KWh/Monat</string>
+
+
+    <!--Overview / Main Activity-->
+    <string name="Empty">Leer</string>
+    <string name="few_data">Zu wenig Daten</string>
+    <string name="few_data_a">zu wenig Daten bisher...</string>
+    <string name="Consumption_per_day_few_data_a">Verbrauch pro Tag:</string>
+    <string name="Consumption_per_month_few_data_a">Verbrauch pro Monat:</string>
+    <string name="CO2_few_data_a">CO2 Emissionen:</string>
+    <string name="Error_loading_max_cons">Fehler beim Laden des Maximalverbrauchs</string>
+    <string name="Last_Input_before">Letzter Eintrag vor </string>
+    <string name="Last_Input_days"> Tagen.</string>
+    <string name="Max_cons_Abb">Max. Verbrauch: </string>
+    <string name="Total_Cons_a">Gesamtverbrauch:</string>
+    <string name="Total_Costs_a">Gesamtkosten:</string>
+    <string name="Cons_per_month_a">Verbrauch kWh/Monat:</string>
+    <string name="Cons_per_day_a">Verbrauch kWh/Tag:</string>
+    <string name="CO2_a">CO2 Emissionen: </string>
+
+
+    <!--Meters-->
+    <string name="Meter_Name_b">Zähler:</string>
+    <string name="Contract_Costs_b">Vertragskosten:</string>
+    <string name="No_Meters_yet">noch keine Zähler!</string>
+    <string name="Starting_Reading_Values">Startwerte</string>
+    <string name="No_Starting_Reading_Values">keine Startwerte</string>
+    <string name="Delete_all_Data_Btn">Alle Daten löschen</string>
+
+
+    <!--Add Meters-->
+    <string name="Error_Name">Bitte Namen eingeben</string>
+    <string name="Error_Number">Bitte Nummer eingeben</string>
+    <string name="Error_Starting_Value">Bitte Startwert eingeben</string>
+    <string name="Error_Maximum_Consumption">Bitte Maximalverbrauch eingeben</string>
+    <string name="Error_Input">Ungültige Eingabe</string>
+    <string name="Meter_Name_Txt">Zähler Name</string>
+    <string name="Starting_Value_Txt">Aktueller Zählerstand</string>
+    <string name="Contract_Costs_Txt">Vertragskosten in € / kWh</string>
+    <string name="Max_Cons_Txt">Angestrebter monatlicher Maximalverbrauch</string>
+    <string name="Add_Meter_Txt">Diesen Zähler hinzufügen</string>
+
+
+    <!--Readings-->
+    <string name="Active_Meter_a">Aktiver Zähler</string>
+    <string name="Active_Meter_changed">Aktiver Zähler gewechselt</string>
+    <string name="No_active_meter">Kein aktiver Zähler</string>
+    <string name="Empty_Readings_in">Zählerstand leer in :</string>
+    <string name="Readings_c">Zählerstand:</string>
+    <string name="Readings_d">Zählerstand</string>
+    <string name="Readings_please_add">Zählerstand hinzufügen bitte</string>
+    <string name="No_Readings_yet_c">Noch keine Zählerstände...</string>
+    <string name="Change_active_Meter">Aktiven Zähler wechseln</string>
+
+
+    <!--Add Readings-->
+    <string name="No_Meter_found_c">Kein Zähler gefunden</string>
+    <string name="Date_Error">Datum Error</string>
+    <string name="Error_in_Meter">Fehler in Zähler:</string>
+    <string name="No_Starting_Value_b">Kein Startwert:</string>
+    <string name="Add_this_Reading">Diesen Zählerstand hinzufügen</string>
+
+
+    <!-- Statistics / Reference-->
+    <string name="Person_Household">Personen im Haushalt</string>
+    <string name="Ref_Monthly_Cons">Monatlicher Verbrauch</string>
+    <string name="Ref_Elec">Strom</string>
+    <string name="Ref_Gas">Gas</string>
+    <string name="Ref_Apt_Size">Wohnungsgröße</string>
+
+
+
+</resources>

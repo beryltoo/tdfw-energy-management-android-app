@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryLight">
+
+    <!--Navigation Menu Items - IDs, Icons and Itemtitles of each Activity-->
+    <item
+        android:id="@+id/Overview_item"
+        android:title="@string/Overview"
+        android:icon="@drawable/ic_overview"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/Meter_item"
+        android:title="@string/Meter"
+        android:icon="@drawable/ic_meter"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/Meter_add_item"
+        android:title="@string/Meter_add"
+        android:icon="@drawable/ic_meter_add"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/Readings_item"
+        android:title="@string/Readings"
+        android:icon="@drawable/ic_readings"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/Readings_add_item"
+        android:title="@string/Readings_add"
+        android:icon="@drawable/ic_readings_add"
+        android:iconTint="@color/colorAccent"/>
+    <item
+        android:id="@+id/Statistics_item"
+        android:title="@string/Statistics"
+        android:icon="@drawable/ic_statistics"
+        android:iconTint="@color/colorAccent"/>
+</menu>

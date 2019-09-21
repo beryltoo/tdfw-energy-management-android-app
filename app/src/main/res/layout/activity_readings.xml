@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Drawer_activities.Readings"
+    android:id="@+id/drawerLayout">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_readings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/TextWhiteColor"
+            android:theme="?attr/actionBarTheme"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/kase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/brefresh"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                android:text="@string/Update"
+                android:textColor="@color/TextWhiteColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.936"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tzaehler"
+                app:layout_constraintVertical_bias="0.302" />
+
+            <Button
+                android:id="@+id/zweck"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:background="@color/colorAccent"
+                android:text="@string/Change_active_Meter"
+                android:textColor="@color/TextWhiteColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/brefresh"
+                app:layout_constraintHorizontal_bias="0.213"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tdatum"
+                app:layout_constraintVertical_bias="0.302" />
+
+            <EditText
+                android:id="@+id/tzaehler"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                android:text="@string/Readings_d"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.928"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1" />
+
+            <EditText
+                android:id="@+id/tdatum"
+                android:layout_width="170dp"
+                android:layout_height="65dp"
+                android:clickable="false"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="none"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tzaehler"
+                app:layout_constraintHorizontal_bias="0.234"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/header"
+        app:itemIconTint="@color/colorAccent"/>
+</androidx.drawerlayout.widget.DrawerLayout>
