@@ -1,6 +1,7 @@
-<img align="center" src="https://github.com/stefano-doering/tdfw-energy-management-android-app/blob/master/app/src/main/res/drawable-v24/full_logo.png"  height="250">
+<p align="center">
+  <img height="300" src="https://github.com/stefano-doering/tdfw-energy-management-android-app/blob/master/app/src/main/res/drawable-v24/full_logo.png">
 
-This repository contains the source code for my "Turn down for Watt" energy management prototype.
+This repository contains the source code for the prototype of my Android energy management application "Turn down for Watt".
 
 # Current Features
   - Tracking of energy consumption and costs of different devices
@@ -12,3 +13,8 @@ This repository contains the source code for my "Turn down for Watt" energy mana
   - SQLite database implementation for more reliable data storing
   - UI rework
   - Graphical representation of the energy consumption
+
+# Screenshots
+<p align="center">
+  <img height="800" src="https://github.com/stefano-doering/tdfw-energy-management-android-app/blob/master/app/src/main/res/drawable-v24/final_ui.png">
+</p>
