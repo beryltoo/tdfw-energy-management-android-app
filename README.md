@@ -1,6 +1,6 @@
-![Turn down for Watt Logo](https://github.com/stefano-doering/tdfw-energy-management-android-app/blob/master/app/src/main/res/drawable-v24/full_logo.png)
-# Turn down for Watt
+<img align="center" src="https://github.com/stefano-doering/tdfw-energy-management-android-app/blob/master/app/src/main/res/drawable-v24/full_logo.png"  height="250">
 
+# Turn down for Watt
 This repository contains the source code for my "Turn down for Watt" energy management prototype.
 
 # Features
