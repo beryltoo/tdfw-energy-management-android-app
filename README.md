@@ -13,6 +13,7 @@ This repository contains the source code for the prototype of my Android energy 
   - SQLite database implementation for more reliable data storing
   - UI rework
   - Graphical representation of the energy consumption
+  - ListView of all meter readings
 
 # Screenshots
 <p align="center">
